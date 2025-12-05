@@ -14,7 +14,6 @@ public class Calculate {
     public void summ(list3[] lists) {
         double sum = 0;
         double worth = 0;
-        String nn = "";
         for (int i = 0; i < lists.length; ++i) {
             sum = lists[i].getprice() * lists[i].getquantity();
             worth = worth + sum;
@@ -36,4 +35,5 @@ public class Calculate {
         System.out.println(s1.name);
             }
         }
+
 
